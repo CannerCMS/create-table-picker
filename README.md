@@ -1,6 +1,8 @@
 # create-table-picker [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Table creater based on [react-hovertable](https://github.com/chilijung/react-hovertable)
 
+![demo](./docs/demo.png)
+
 ## Installation
 
 ```sh
