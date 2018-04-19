@@ -124,7 +124,6 @@ export default class TablePicker extends React.Component<Props, {open: boolean}>
     const {column, row, width, height, theme} = this.props;
     return (
       <div style={{
-        zIndex: 1000,
         border: '1px solid #d9d9d9',
         borderRadius: '5px',
         background: '#fff',
