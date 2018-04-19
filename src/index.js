@@ -34,8 +34,7 @@ type Props = {
   disabled?: boolean
 }
 
-export default class EmojiMartPicker extends React.Component<Props, {open: boolean}> {
-  savePickerPanelRef: ?EmojiMartPicker
+export default class TablePicker extends React.Component<Props, {open: boolean}> {
 
   constructor(props: Props) {
     super(props);
@@ -125,6 +124,7 @@ export default class EmojiMartPicker extends React.Component<Props, {open: boole
     const {column, row, width, height, theme} = this.props;
     return (
       <div style={{
+        zIndex: 1000,
         border: '1px solid #d9d9d9',
         borderRadius: '5px',
         background: '#fff',
